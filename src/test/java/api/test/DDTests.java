@@ -1,8 +1,9 @@
-package api.payload;
+package api.test;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import api.endpoints.UserEndPoints;
+import api.payload.User;
 import api.utilities.DataProviders;
 import io.restassured.response.Response;
 

@@ -1,0 +1,436 @@
+02:58:39.996 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\shamb\eclipse-workspace\ResassuredAutomation_122\testng.xml"
+02:58:40.206 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests.setupData()[pri:0, instance:null] 1651425096
+02:58:40.206 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+02:58:40.208 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+02:58:40.208 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+02:58:40.208 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+02:58:40.214 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests.testUpdateUserByName()[pri:3, instance:api.test.UserTests@3676ac27] -395401406
+02:58:40.214 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests.testDeleteUserByName()[pri:4, instance:api.test.UserTests@3676ac27] -1665601180
+02:58:40.214 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests.testPostUser()[pri:1, instance:api.test.UserTests@3676ac27] -302419339
+02:58:40.214 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests.testGetUserByName()[pri:2, instance:api.test.UserTests@3676ac27] 2120095849
+02:58:40.214 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+02:58:40.215 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+02:58:40.215 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+02:58:40.215 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+02:58:40.223 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\shamb\eclipse-workspace\ResassuredAutomation_122\testng.xml
+
+02:58:49.701 [main] ERROR org.testng.reporters.jq.Main - C:\Users\shamb\eclipse-workspace\ResassuredAutomation_122\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: C:\Users\shamb\eclipse-workspace\ResassuredAutomation_122\test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:227) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3145) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+03:06:55.929 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\shamb\eclipse-workspace\ResassuredAutomation_122\testng.xml"
+03:06:56.149 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests.setup()[pri:0, instance:null] 942903986
+03:06:56.149 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+03:06:56.151 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+03:06:56.151 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+03:06:56.151 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+03:06:56.157 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests.testUpdateUserByName()[pri:3, instance:api.test.UserTests@3676ac27] -395401406
+03:06:56.157 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests.testDeleteUserByName()[pri:4, instance:api.test.UserTests@3676ac27] -1665601180
+03:06:56.157 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests.testPostUser()[pri:1, instance:api.test.UserTests@3676ac27] -302419339
+03:06:56.157 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests.testGetUserByName()[pri:2, instance:api.test.UserTests@3676ac27] 2120095849
+03:06:56.157 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+03:06:56.158 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+03:06:56.158 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+03:06:56.158 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+03:06:56.165 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\shamb\eclipse-workspace\ResassuredAutomation_122\testng.xml
+
+03:06:56.562 [main] INFO  api.test.UserTests - ***** Creating User *****
+03:06:59.660 [main] INFO  api.test.UserTests - ***** Created User *****
+03:06:59.674 [main] INFO  api.test.UserTests - ***** Reading User Info *****
+03:07:01.071 [main] INFO  api.test.UserTests - *****  User Info is displayed *****
+03:07:01.077 [main] INFO  api.test.UserTests - ***** Updating User *****
+03:07:02.549 [main] INFO  api.test.UserTests - ***** Updated User *****
+03:07:03.952 [main] INFO  api.test.UserTests - ***** Deleting User *****
+03:07:05.355 [main] INFO  api.test.UserTests - ***** Deleted User *****
+03:07:05.764 [main] ERROR org.testng.reporters.jq.Main - C:\Users\shamb\eclipse-workspace\ResassuredAutomation_122\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: C:\Users\shamb\eclipse-workspace\ResassuredAutomation_122\test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:227) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3145) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+11:02:16.725 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\shamb\eclipse-workspace\ResassuredAutomation_122\testng.xml"
+11:02:16.981 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests.setup()[pri:0, instance:null] 942903986
+11:02:16.981 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+11:02:16.983 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+11:02:16.983 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+11:02:16.983 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+11:02:16.989 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests.testUpdateUserByName()[pri:3, instance:api.test.UserTests@3676ac27] -395401406
+11:02:16.989 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests.testDeleteUserByName()[pri:4, instance:api.test.UserTests@3676ac27] -1665601180
+11:02:16.989 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests.testPostUser()[pri:1, instance:api.test.UserTests@3676ac27] -302419339
+11:02:16.989 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests.testGetUserByName()[pri:2, instance:api.test.UserTests@3676ac27] 2120095849
+11:02:16.989 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+11:02:16.990 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+11:02:16.990 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+11:02:16.990 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+11:02:16.996 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\shamb\eclipse-workspace\ResassuredAutomation_122\testng.xml
+
+11:02:17.407 [main] INFO  api.test.UserTests - ***** Creating User *****
+11:02:20.601 [main] INFO  api.test.UserTests - ***** Created User *****
+11:02:20.616 [main] INFO  api.test.UserTests - ***** Reading User Info *****
+11:02:21.915 [main] INFO  api.test.UserTests - *****  User Info is displayed *****
+11:02:21.919 [main] INFO  api.test.UserTests - ***** Updating User *****
+11:02:23.194 [main] INFO  api.test.UserTests - ***** Updated User *****
+11:02:24.454 [main] INFO  api.test.UserTests - ***** Deleting User *****
+11:02:25.697 [main] INFO  api.test.UserTests - ***** Deleted User *****
+11:02:26.092 [main] ERROR org.testng.reporters.jq.Main - C:\Users\shamb\eclipse-workspace\ResassuredAutomation_122\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: C:\Users\shamb\eclipse-workspace\ResassuredAutomation_122\test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:227) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3145) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+11:03:39.612 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\shamb\eclipse-workspace\ResassuredAutomation_122\testng.xml"
+11:03:39.859 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.setup()[pri:0, instance:null] -1632022632
+11:03:39.859 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+11:03:39.861 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+11:03:39.861 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+11:03:39.861 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+11:03:39.869 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.testUpdateUserByName()[pri:3, instance:api.test.UserTests2@3676ac27] -240166692
+11:03:39.870 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.testDeleteUserByName()[pri:4, instance:api.test.UserTests2@3676ac27] 878955194
+11:03:39.870 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.testPostUser()[pri:1, instance:api.test.UserTests2@3676ac27] 1489308879
+11:03:39.870 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.testGetUserByName()[pri:2, instance:api.test.UserTests2@3676ac27] 859744211
+11:03:39.870 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+11:03:39.871 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+11:03:39.871 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+11:03:39.871 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+11:03:39.879 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\shamb\eclipse-workspace\ResassuredAutomation_122\testng.xml
+
+11:03:40.264 [main] INFO  api.test.UserTests2 - ***** Creating User *****
+11:03:43.257 [main] INFO  api.test.UserTests2 - ***** Created User *****
+11:03:43.271 [main] INFO  api.test.UserTests2 - ***** Reading User Info *****
+11:03:45.930 [main] INFO  api.test.UserTests2 - *****  User Info is displayed *****
+11:03:45.935 [main] INFO  api.test.UserTests2 - ***** Updating User *****
+11:03:47.221 [main] INFO  api.test.UserTests2 - ***** Updated User *****
+11:03:48.508 [main] INFO  api.test.UserTests2 - ***** Deleting User *****
+11:03:49.765 [main] INFO  api.test.UserTests2 - ***** Deleted User *****
+11:03:50.133 [main] ERROR org.testng.reporters.jq.Main - C:\Users\shamb\eclipse-workspace\ResassuredAutomation_122\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: C:\Users\shamb\eclipse-workspace\ResassuredAutomation_122\test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:227) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3145) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+11:09:34.247 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\shamb\eclipse-workspace\ResassuredAutomation_122\testng.xml"
+11:09:34.439 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.setup()[pri:0, instance:null] -1632022632
+11:09:34.439 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+11:09:34.441 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+11:09:34.441 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+11:09:34.442 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+11:09:34.447 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.testUpdateUserByName()[pri:3, instance:api.test.UserTests2@2c95ac9e] -405907117
+11:09:34.447 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.testDeleteUserByName()[pri:4, instance:api.test.UserTests2@2c95ac9e] 713214769
+11:09:34.447 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.testPostUser()[pri:1, instance:api.test.UserTests2@2c95ac9e] 1323568454
+11:09:34.448 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.testGetUserByName()[pri:2, instance:api.test.UserTests2@2c95ac9e] 694003786
+11:09:34.448 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+11:09:34.448 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+11:09:34.449 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+11:09:34.449 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+11:09:34.839 [main] INFO  api.test.UserTests2 - ***** Creating User *****
+11:09:38.148 [main] INFO  api.test.UserTests2 - ***** Created User *****
+11:09:38.158 [main] INFO  api.test.UserTests2 - ***** Reading User Info *****
+11:09:39.501 [main] INFO  api.test.UserTests2 - *****  User Info is displayed *****
+11:09:39.504 [main] INFO  api.test.UserTests2 - ***** Updating User *****
+11:09:42.087 [main] INFO  api.test.UserTests2 - ***** Updated User *****
+11:09:43.674 [main] INFO  api.test.UserTests2 - ***** Deleting User *****
+11:09:44.903 [main] INFO  api.test.UserTests2 - ***** Deleted User *****
+11:20:35.771 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\shamb\eclipse-workspace\RestassuredAutomation_122\testng.xml"
+11:20:36.025 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.setup()[pri:0, instance:null] -1632022632
+11:20:36.026 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+11:20:36.028 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+11:20:36.028 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+11:20:36.028 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+11:20:36.034 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.testUpdateUserByName()[pri:3, instance:api.test.UserTests2@2c95ac9e] -405907117
+11:20:36.034 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.testDeleteUserByName()[pri:4, instance:api.test.UserTests2@2c95ac9e] 713214769
+11:20:36.035 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.testPostUser()[pri:1, instance:api.test.UserTests2@2c95ac9e] 1323568454
+11:20:36.035 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.testGetUserByName()[pri:2, instance:api.test.UserTests2@2c95ac9e] 694003786
+11:20:36.035 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+11:20:36.036 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+11:20:36.036 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+11:20:36.036 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+11:20:36.578 [main] INFO  api.test.UserTests2 - ***** Creating User *****
+11:20:40.453 [main] INFO  api.test.UserTests2 - ***** Created User *****
+11:20:40.464 [main] INFO  api.test.UserTests2 - ***** Reading User Info *****
+11:20:41.926 [main] INFO  api.test.UserTests2 - *****  User Info is displayed *****
+11:20:41.930 [main] INFO  api.test.UserTests2 - ***** Updating User *****
+11:20:43.318 [main] INFO  api.test.UserTests2 - ***** Updated User *****
+11:20:44.682 [main] INFO  api.test.UserTests2 - ***** Deleting User *****
+11:20:46.060 [main] INFO  api.test.UserTests2 - ***** Deleted User *****
+11:20:46.451 [main] ERROR org.testng.reporters.jq.Main - C:\Users\shamb\eclipse-workspace\RestassuredAutomation_122\target\surefire-reports\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: C:\Users\shamb\eclipse-workspace\RestassuredAutomation_122\target\surefire-reports\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:227) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3145) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308) [surefire-testng-3.2.2.jar:3.2.2]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71) [surefire-testng-3.2.2.jar:3.2.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113) [surefire-testng-3.2.2.jar:3.2.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.2.2.jar:3.2.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.2.2.jar:3.2.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.2.2.jar:3.2.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.2.2.jar:3.2.2]
+11:25:50.948 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\shamb\eclipse-workspace\RestassuredAutomation_122\testng.xml"
+11:25:51.155 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.setup()[pri:0, instance:null] -1632022632
+11:25:51.156 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+11:25:51.158 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+11:25:51.158 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+11:25:51.158 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+11:25:51.164 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.testUpdateUserByName()[pri:3, instance:api.test.UserTests2@2c95ac9e] -405907117
+11:25:51.164 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.testDeleteUserByName()[pri:4, instance:api.test.UserTests2@2c95ac9e] 713214769
+11:25:51.164 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.testPostUser()[pri:1, instance:api.test.UserTests2@2c95ac9e] 1323568454
+11:25:51.164 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.testGetUserByName()[pri:2, instance:api.test.UserTests2@2c95ac9e] 694003786
+11:25:51.164 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+11:25:51.165 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+11:25:51.165 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+11:25:51.165 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+11:25:51.588 [main] INFO  api.test.UserTests2 - ***** Creating User *****
+11:25:54.922 [main] INFO  api.test.UserTests2 - ***** Created User *****
+11:25:54.931 [main] INFO  api.test.UserTests2 - ***** Reading User Info *****
+11:25:56.241 [main] INFO  api.test.UserTests2 - *****  User Info is displayed *****
+11:25:56.245 [main] INFO  api.test.UserTests2 - ***** Updating User *****
+11:25:57.545 [main] INFO  api.test.UserTests2 - ***** Updated User *****
+11:25:58.842 [main] INFO  api.test.UserTests2 - ***** Deleting User *****
+11:26:01.105 [main] INFO  api.test.UserTests2 - ***** Deleted User *****
+11:26:01.520 [main] ERROR org.testng.reporters.jq.Main - C:\Users\shamb\eclipse-workspace\RestassuredAutomation_122\target\surefire-reports\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: C:\Users\shamb\eclipse-workspace\RestassuredAutomation_122\target\surefire-reports\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:227) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3145) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308) [surefire-testng-3.2.2.jar:3.2.2]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71) [surefire-testng-3.2.2.jar:3.2.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113) [surefire-testng-3.2.2.jar:3.2.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.2.2.jar:3.2.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.2.2.jar:3.2.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.2.2.jar:3.2.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.2.2.jar:3.2.2]
+11:28:21.562 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests.setup()[pri:0, instance:null] 942903986
+11:28:21.567 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+11:28:21.570 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+11:28:21.570 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+11:28:21.570 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+11:28:21.576 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE DDTests.testDeleteUserByName(java.lang.String)[pri:2, instance:api.test.DDTests@439a8f59] 33202407
+11:28:21.576 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE DDTests.testPostuser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.DDTests@439a8f59] -1594292426
+11:28:21.576 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests.testUpdateUserByName()[pri:3, instance:api.test.UserTests@2fd1731c] -506892745
+11:28:21.577 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests.testDeleteUserByName()[pri:4, instance:api.test.UserTests@2fd1731c] -1777092519
+11:28:21.577 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests.testPostUser()[pri:1, instance:api.test.UserTests@2fd1731c] -413910678
+11:28:21.577 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests.testGetUserByName()[pri:2, instance:api.test.UserTests@2fd1731c] 2008604510
+11:28:21.577 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+11:28:21.578 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+11:28:21.578 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+11:28:21.578 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+11:28:21.764 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:28:21.767 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:28:21.768 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:28:22.193 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+11:28:22.270 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:28:22.272 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:28:22.272 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:28:22.287 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+11:28:22.301 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:28:22.303 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:28:22.303 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:28:22.316 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+11:28:22.354 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:28:22.355 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:28:22.356 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:28:22.367 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+11:28:22.385 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:28:22.386 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:28:22.387 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:28:22.401 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+11:28:22.418 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:28:22.419 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:28:22.420 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:28:22.431 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+11:28:22.445 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:28:22.446 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:28:22.446 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:28:22.456 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+11:28:22.469 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:28:22.470 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:28:22.470 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:28:22.478 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+11:28:22.495 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:28:22.497 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:28:22.497 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:28:22.506 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+11:28:22.520 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:28:22.521 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:28:22.522 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:28:22.532 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+11:28:22.546 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:28:22.547 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:28:22.548 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:28:22.557 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+11:28:22.571 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:28:22.572 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:28:22.573 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:28:22.585 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+11:28:22.599 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:28:22.600 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:28:22.601 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:28:22.611 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+11:28:22.625 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:28:22.626 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:28:22.627 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:28:22.636 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+11:28:22.650 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:28:22.651 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:28:22.652 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:28:22.662 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+11:28:22.675 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:28:22.676 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:28:22.677 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:28:22.686 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+11:28:22.700 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:28:22.701 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:28:22.701 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:28:22.711 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+11:28:22.723 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:28:22.724 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:28:22.725 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:28:22.733 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+11:28:22.750 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:28:22.751 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:28:22.752 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:28:22.760 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+11:28:22.773 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:28:22.775 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:28:22.776 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:28:22.785 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+11:28:22.798 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:28:22.799 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:28:22.800 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:28:22.810 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+11:28:22.822 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:28:22.824 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:28:22.825 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:28:22.835 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+11:28:22.847 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:28:22.848 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:28:22.849 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:28:22.855 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+11:28:29.107 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:28:29.109 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:28:29.110 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:28:29.121 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+11:28:29.130 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:28:29.131 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:28:29.132 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:28:29.138 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+11:28:29.149 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:28:29.150 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:28:29.151 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:28:29.160 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+11:28:29.170 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:28:29.171 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:28:29.172 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:28:29.180 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+11:28:33.708 [main] INFO  api.test.UserTests - ***** Creating User *****
+11:28:35.160 [main] INFO  api.test.UserTests - ***** Created User *****
+11:28:35.162 [main] INFO  api.test.UserTests - ***** Reading User Info *****
+11:28:36.570 [main] INFO  api.test.UserTests - *****  User Info is displayed *****
+11:28:36.572 [main] INFO  api.test.UserTests - ***** Updating User *****
+11:28:37.976 [main] INFO  api.test.UserTests - ***** Updated User *****
+11:28:39.386 [main] INFO  api.test.UserTests - ***** Deleting User *****
+11:28:40.783 [main] INFO  api.test.UserTests - ***** Deleted User *****
+11:28:40.867 [main] ERROR org.testng.reporters.jq.Main - C:\Users\shamb\eclipse-workspace\RestassuredAutomation_122\target\surefire-reports\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: C:\Users\shamb\eclipse-workspace\RestassuredAutomation_122\target\surefire-reports\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:227) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3145) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155) [surefire-testng-3.2.2.jar:3.2.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169) [surefire-testng-3.2.2.jar:3.2.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88) [surefire-testng-3.2.2.jar:3.2.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137) [surefire-testng-3.2.2.jar:3.2.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.2.2.jar:3.2.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.2.2.jar:3.2.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.2.2.jar:3.2.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.2.2.jar:3.2.2]
+11:38:55.142 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests.setup()[pri:0, instance:null] 942903986
+11:38:55.147 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+11:38:55.149 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+11:38:55.149 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+11:38:55.150 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+11:38:55.154 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE DDTests.testDeleteUserByName(java.lang.String)[pri:2, instance:api.test.DDTests@439a8f59] 33202407
+11:38:55.154 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE DDTests.testPostuser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.DDTests@439a8f59] -1594292426
+11:38:55.155 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests.testUpdateUserByName()[pri:3, instance:api.test.UserTests@2fd1731c] -506892745
+11:38:55.155 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests.testDeleteUserByName()[pri:4, instance:api.test.UserTests@2fd1731c] -1777092519
+11:38:55.155 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests.testPostUser()[pri:1, instance:api.test.UserTests@2fd1731c] -413910678
+11:38:55.155 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests.testGetUserByName()[pri:2, instance:api.test.UserTests@2fd1731c] 2008604510
+11:38:55.155 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+11:38:55.156 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+11:38:55.156 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+11:38:55.156 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+11:38:55.287 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:38:55.290 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:38:55.292 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:38:55.697 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+11:38:55.774 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:38:55.775 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:38:55.776 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:38:55.791 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+11:38:55.806 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:38:55.807 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:38:55.808 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:38:55.819 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+11:38:55.856 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:38:55.857 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels

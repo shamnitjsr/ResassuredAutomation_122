@@ -70,3 +70,105 @@ java.nio.file.FileAlreadyExistsException: C:\Users\shamb\eclipse-workspace\Resas
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+11:02:16.725 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\shamb\eclipse-workspace\ResassuredAutomation_122\testng.xml"
+11:02:16.981 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests.setup()[pri:0, instance:null] 942903986
+11:02:16.981 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+11:02:16.983 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+11:02:16.983 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+11:02:16.983 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+11:02:16.989 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests.testUpdateUserByName()[pri:3, instance:api.test.UserTests@3676ac27] -395401406
+11:02:16.989 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests.testDeleteUserByName()[pri:4, instance:api.test.UserTests@3676ac27] -1665601180
+11:02:16.989 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests.testPostUser()[pri:1, instance:api.test.UserTests@3676ac27] -302419339
+11:02:16.989 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests.testGetUserByName()[pri:2, instance:api.test.UserTests@3676ac27] 2120095849
+11:02:16.989 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+11:02:16.990 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+11:02:16.990 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+11:02:16.990 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+11:02:16.996 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\shamb\eclipse-workspace\ResassuredAutomation_122\testng.xml
+
+11:02:17.407 [main] INFO  api.test.UserTests - ***** Creating User *****
+11:02:20.601 [main] INFO  api.test.UserTests - ***** Created User *****
+11:02:20.616 [main] INFO  api.test.UserTests - ***** Reading User Info *****
+11:02:21.915 [main] INFO  api.test.UserTests - *****  User Info is displayed *****
+11:02:21.919 [main] INFO  api.test.UserTests - ***** Updating User *****
+11:02:23.194 [main] INFO  api.test.UserTests - ***** Updated User *****
+11:02:24.454 [main] INFO  api.test.UserTests - ***** Deleting User *****
+11:02:25.697 [main] INFO  api.test.UserTests - ***** Deleted User *****
+11:02:26.092 [main] ERROR org.testng.reporters.jq.Main - C:\Users\shamb\eclipse-workspace\ResassuredAutomation_122\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: C:\Users\shamb\eclipse-workspace\ResassuredAutomation_122\test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:227) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3145) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+11:03:39.612 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\shamb\eclipse-workspace\ResassuredAutomation_122\testng.xml"
+11:03:39.859 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.setup()[pri:0, instance:null] -1632022632
+11:03:39.859 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+11:03:39.861 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+11:03:39.861 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+11:03:39.861 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+11:03:39.869 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.testUpdateUserByName()[pri:3, instance:api.test.UserTests2@3676ac27] -240166692
+11:03:39.870 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.testDeleteUserByName()[pri:4, instance:api.test.UserTests2@3676ac27] 878955194
+11:03:39.870 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.testPostUser()[pri:1, instance:api.test.UserTests2@3676ac27] 1489308879
+11:03:39.870 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.testGetUserByName()[pri:2, instance:api.test.UserTests2@3676ac27] 859744211
+11:03:39.870 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+11:03:39.871 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+11:03:39.871 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+11:03:39.871 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+11:03:39.879 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\shamb\eclipse-workspace\ResassuredAutomation_122\testng.xml
+
+11:03:40.264 [main] INFO  api.test.UserTests2 - ***** Creating User *****
+11:03:43.257 [main] INFO  api.test.UserTests2 - ***** Created User *****
+11:03:43.271 [main] INFO  api.test.UserTests2 - ***** Reading User Info *****
+11:03:45.930 [main] INFO  api.test.UserTests2 - *****  User Info is displayed *****
+11:03:45.935 [main] INFO  api.test.UserTests2 - ***** Updating User *****
+11:03:47.221 [main] INFO  api.test.UserTests2 - ***** Updated User *****
+11:03:48.508 [main] INFO  api.test.UserTests2 - ***** Deleting User *****
+11:03:49.765 [main] INFO  api.test.UserTests2 - ***** Deleted User *****
+11:03:50.133 [main] ERROR org.testng.reporters.jq.Main - C:\Users\shamb\eclipse-workspace\ResassuredAutomation_122\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: C:\Users\shamb\eclipse-workspace\ResassuredAutomation_122\test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:227) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3145) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+11:09:34.247 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\shamb\eclipse-workspace\ResassuredAutomation_122\testng.xml"
+11:09:34.439 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.setup()[pri:0, instance:null] -1632022632
+11:09:34.439 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+11:09:34.441 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+11:09:34.441 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+11:09:34.442 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+11:09:34.447 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.testUpdateUserByName()[pri:3, instance:api.test.UserTests2@2c95ac9e] -405907117
+11:09:34.447 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.testDeleteUserByName()[pri:4, instance:api.test.UserTests2@2c95ac9e] 713214769
+11:09:34.447 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.testPostUser()[pri:1, instance:api.test.UserTests2@2c95ac9e] 1323568454
+11:09:34.448 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.testGetUserByName()[pri:2, instance:api.test.UserTests2@2c95ac9e] 694003786
+11:09:34.448 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+11:09:34.448 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+11:09:34.449 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+11:09:34.449 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+11:09:34.839 [main] INFO  api.test.UserTests2 - ***** Creating User *****
+11:09:38.148 [main] INFO  api.test.UserTests2 - ***** Created User *****
+11:09:38.158 [main] INFO  api.test.UserTests2 - ***** Reading User Info *****
+11:09:39.501 [main] INFO  api.test.UserTests2 - *****  User Info is displayed *****
+11:09:39.504 [main] INFO  api.test.UserTests2 - ***** Updating User *****
+11:09:42.087 [main] INFO  api.test.UserTests2 - ***** Updated User *****
+11:09:43.674 [main] INFO  api.test.UserTests2 - ***** Deleting User *****
+11:09:44.903 [main] INFO  api.test.UserTests2 - ***** Deleted User *****
